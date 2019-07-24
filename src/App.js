@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Comp1 from './Comp1/component'
 
 class App extends Component {
   render() {
     return (
       <div>
-        Weclome to the React app with Redux and Redux-Saga
+      <Comp1 />
       </div>
     );
   }
